@@ -1,11 +1,6 @@
 package leetcode.algorithm;
 
-import leetcode.bean.TreeNode;
 import lombok.Data;
-import lombok.RequiredArgsConstructor;
-
-import java.beans.ConstructorProperties;
-import java.util.LinkedList;
 
 public class Application {
     public static void traverse(ListNode root) {
@@ -22,6 +17,7 @@ public class Application {
         traverse(root);
     }
 }
+
 @Data
 class ListNode {
     ListNode next;
